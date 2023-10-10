@@ -10,7 +10,7 @@ function Register() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
+  // const [confirmPassword, setConfirmPassword] = useState("");
 
   const Register = (e) => {
     e.preventDefault();
@@ -60,13 +60,13 @@ function Register() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <h5> Confirm Password</h5>
+          {/* <h5> Confirm Password</h5>
           <input
             type="password"
             placeholder="Enter your password"
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
-          />
+          /> */}
 
           <div className="Auth_buttons">
             <button type="submit" className="Start_Button" onClick={Register}>

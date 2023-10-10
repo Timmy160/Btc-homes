@@ -7,7 +7,6 @@ import Room7 from "../../Assets/Images/Room7.jpg";
 import Room8 from "../../Assets/Images/Room8.jpg";
 import Room11 from "../../Assets/Images/Room11.jpg";
 import Room14 from "../../Assets/Images/Room14.jpg";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import Slide from "react-reveal/Slide";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
 import PersonalVideoIcon from "@mui/icons-material/PersonalVideo";
@@ -31,12 +30,14 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 2 Adults + 1 Child, Or, 1 Adults + 2 Children
+                under 12 years old <br /> <br /> These compact yet comfortable
+                bedrooms spread over 45 square metres. They are situated across
+                all floors and come with all amenities. which include an
+                oversized king size bed and bathroom with separated shower. It
+                is also equipped with a multi-use work station and a 49" LCD
+                flat screen. Rollaway Beds are not available for this room
+                category
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -63,12 +64,16 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child under 12
+                years old and 1 Infant. <br /> <br /> These well-appointed 70
+                square metre bedrooms feature an entrance vestibule with closet,
+                a living room, a bedroom and bathroom with separated shower.
+                They come with all amenities personally. and include an
+                oversized king size bed. For your comfort all the living rooms
+                are equipped with a multi-use working station and 49" LCD flat
+                screen TV. The butler station features a private bar and
+                accessories, which includes an individual coffee machine. can be
+                placed for #10,000 per night.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -95,12 +100,13 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                {" "}
+                Maximum occupancy: 2 Adults, Or, 1 Adults + 1 Child and 1 Infant
+                under 12 years old <br /> <br /> Rate inclusive of buffet
+                breakfast in Btc Homes. Located on all floors of the hotel,
+                these guestrooms are personally designed by. They feature an
+                entrance vestibule with an extra walk-in closet, living room, a
+                bedroom and a bathroom with separated shower.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -127,12 +133,16 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 2 Adults, Or, 2 Adults + 1 Child under 12
+                years old and 1 Infant. <br /> <br /> These well-appointed 70
+                square metre bedrooms feature an entrance vestibule with closet,
+                a living room, a bedroom and bathroom with separated shower.
+                They come with all amenities personally. and include an
+                oversized king size bed. For your comfort all the living rooms
+                are equipped with a multi-use working station and 38" LCD flat
+                screen TV. The butler station features a private bar and
+                accessories, which includes an individual coffee machine. can be
+                placed for #8,000 per night.
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -159,12 +169,12 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 2 Adults, Or, 1 Adults + 1 Child and 1 Infant
+                under 12 years old <br /> <br /> Rate inclusive of buffet
+                breakfast in Btc Homes. Located on all floors of the hotel,
+                these guestrooms are personally designed by. They feature an
+                entrance vestibule with an extra walk-in closet, living room, a
+                bedroom and a bathroom with separated shower.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -191,12 +201,13 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child and 1 Infant
+                under 12 years old <br /> <br /> Rate inclusive of buffet
+                breakfast in Btc Homes. Located on all floors of the hotel,
+                these guestrooms are personally designed by. They feature an
+                entrance vestibule with an extra walk-in closet, living room, a
+                bedroom and a bathroom with separated shower. can be placed for
+                a charge #10,000 plus tax per night
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -223,12 +234,15 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 2 Adults, Or, 2 Adults + 1 Child under 12
+                years old and 1 Infant. <br /> <br /> These well-appointed 60
+                square metre bedrooms feature an entrance vestibule with closet,
+                a living room, a bedroom and bathroom with separated shower.
+                They come with all amenities personally. and include an
+                oversized king size bed. For your comfort all the living rooms
+                are equipped with a multi-use working station and 38" LCD flat
+                screen TV. The butler station features a private bar and
+                accessories, which includes an individual coffee machine.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -255,12 +269,16 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-                repellat alias blanditiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Impedit, provident voluptatibus
-                sit deserunt aut facere, illum laboriosam cum, inventore ipsam
-                minima distinctio voluptate dolores voluptas consequatur. Eum in
-                corrupti reprehenderit.
+                Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child under 12
+                years old and 1 Infant. <br /> <br /> These well-appointed 70
+                square metre bedrooms feature an entrance vestibule with closet,
+                a living room, a bedroom and bathroom with separated shower.
+                They come with all amenities personally. and include an
+                oversized king size bed. For your comfort all the living rooms
+                are equipped with a multi-use working station and 49" LCD flat
+                screen TV. The butler station features a private bar and
+                accessories, which includes an individual coffee machine. can be
+                placed for #10,000 per night.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />

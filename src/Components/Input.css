@@ -73,7 +73,7 @@ form > input {
 @media only screen and (max-width: 600px) {
   .input {
     background-color: rgba(35, 35, 39, 0.5);
-    width: 370px;
+    width: 380px;
     height: 90px;
     display: flex;
     flex-direction: row;

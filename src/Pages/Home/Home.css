@@ -25,6 +25,7 @@
 @media only screen and (max-width: 600px) {
   .home {
     min-height: 50vh;
+    opacity: 1;
   }
 
   .home_text {

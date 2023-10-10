@@ -84,11 +84,12 @@ header .nav-btn {
     padding: 0.1rem;
   }
 
+  /* Nav link later things */
   header .nav-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    visibility: visible;
+    visibility: hidden;
     padding-bottom: 18px;
     padding-right: 10px;
     opacity: 1;
@@ -114,6 +115,7 @@ header .nav-btn {
     gap: 1.2rem;
     background-color: rgb(234, 237, 237);
     z-index: 100;
+    opacity: 5;
     transition: 0.8s;
     transform: translateY(-100vh);
   }
