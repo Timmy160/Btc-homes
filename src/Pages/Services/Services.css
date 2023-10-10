@@ -1,0 +1,160 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  max-width: 1220px;
+  background-color: #eeeeee;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.services_header_text {
+  text-align: center;
+  padding: 0 10rem;
+  padding-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.services_content {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  padding: 40px;
+  padding-top: 3.6rem;
+}
+
+.services_paragraph {
+  padding: 10px;
+  margin: 0 2rem;
+  font-size: 0.9rem;
+}
+
+.services_image img {
+  width: 350px;
+  height: 260px;
+  margin-left: 2rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.available_services {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  padding: 8px;
+}
+
+.available_services p {
+  padding-left: 7px;
+}
+
+.available_services > span {
+  display: flex;
+  align-items: center;
+  margin-left: -1.1rem;
+  padding: 7px;
+}
+
+.CheckCircleOutlineIcon {
+  color: rgb(159, 165, 165);
+}
+
+.more_service_btn {
+  margin-top: 2rem;
+  padding: 12px;
+  margin-left: 0rem;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(148, 212, 212);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 25px;
+    border-bottom: 1px solid rgb(148, 212, 212);
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    margin-top: 1.2rem;
+  }
+
+  .services_header_text {
+    font-size: 0.9rem;
+    display: flex;
+    text-align: center;
+    padding: 0 2rem;
+    margin-top: 0.2rem;
+  }
+
+  .services_content {
+    display: block;
+    padding: 0px;
+    margin-top: 0.8rem;
+  }
+
+  .services_paragraph {
+    padding: 10px;
+    font-size: 0.9rem;
+    margin: 0rem;
+  }
+
+  .available_services {
+    display: grid;
+    grid-template-columns: 0.8fr 0.6fr;
+    padding: 8px;
+  }
+
+  .available_services p {
+    padding-left: 7px;
+  }
+
+  .available_services > span {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .CheckCircleOutlineIcon {
+    color: rgb(159, 165, 165);
+  }
+
+  .more_service_btn {
+    margin-top: 1rem;
+    padding: 8px;
+    margin-left: 0rem;
+    color: #000;
+    font-size: 14px;
+    background: rgb(148, 212, 212);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .services_image img {
+    width: 340px;
+    height: 260px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.3rem;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}

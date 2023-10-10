@@ -1,0 +1,82 @@
+.FoodMenu {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  max-width: 1220px;
+  background-color: #f3f3f4;
+}
+
+.FoodMenu_title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.FoodMenu_Header_Text {
+  text-align: center;
+  padding: 0 12rem;
+  padding-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.Food_Image img {
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
+}
+
+.Food_Name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .FoodMenu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .FoodMenu_title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+  }
+
+  .FoodMenu_Header_Text {
+    text-align: center;
+    padding: 0 1.6rem;
+    padding-top: 0.2rem;
+    font-size: 0.9rem;
+  }
+
+  .Food_Image img {
+    width: 170px;
+    height: 180px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .Food_Name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+    font-size: 0.8rem;
+  }
+}

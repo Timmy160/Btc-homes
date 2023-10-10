@@ -1,0 +1,231 @@
+.ContactUs {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  max-width: 1220px;
+  background-color: #e8e5e5;
+  color: #000;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.8rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact_header_text {
+  text-align: center;
+  padding: 0 12rem;
+  padding-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.contact_part {
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  margin-top: 1rem;
+}
+
+.contact_container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.contact_container > form > input {
+  height: 45px;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+input::placeholder {
+  padding: 6px;
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 2px solid #ccc;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.contact_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 0;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(148, 212, 212);
+  cursor: pointer;
+}
+
+.contact_image img {
+  width: 440px;
+  height: 300px;
+  margin-top: 1.3rem;
+  border-radius: 10px;
+}
+
+.phone_numbers {
+  width: fit-content;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-left: 4.4rem;
+  border-radius: 8px;
+  border-bottom: 1px solid rgb(148, 212, 212);
+  border-right: 1px solid rgb(148, 212, 212);
+}
+
+.phone_numbers a {
+  text-decoration: none;
+  color: #000;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-size: 1rem;
+  border-radius: 8px;
+  border-bottom: 1px solid rgb(148, 212, 212);
+  border-left: 1px solid rgb(148, 212, 212);
+}
+@media only screen and (max-width: 600px) {
+  .ContactUs {
+    display: flex;
+    flex-direction: column;
+    background-color: #e8e5e5;
+    color: #000;
+    margin-top: 0;
+    padding: 15px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+  }
+
+  .contact_header_text {
+    font-size: 0.9rem;
+    display: flex;
+    text-align: center;
+    padding: 0 2.5rem;
+    padding-top: 0.2rem;
+  }
+
+  .contact_part {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .contact_container > form > input {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 1px solid #000;
+  }
+
+  textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #000;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 6px;
+    margin-left: 0rem;
+    color: #000;
+    font-size: 16px;
+    background: rgb(148, 212, 212);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .contact_image img {
+    width: 340px;
+    height: 240px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .phone_numbers {
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 6px;
+    border-bottom: 1px solid rgb(148, 212, 212);
+    border-right: 1px solid rgb(148, 212, 212);
+  }
+
+  .location {
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    border-radius: 6px;
+    border-bottom: 1px solid rgb(148, 212, 212);
+    border-left: 1px solid rgb(148, 212, 212);
+  }
+}

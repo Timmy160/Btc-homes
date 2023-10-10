@@ -1,0 +1,112 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.4rem;
+  max-width: 1220px;
+  background-color: #e2e1de;
+}
+
+.aboutUs .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.about_content {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  padding: 40px;
+  padding-top: 4rem;
+}
+
+.about_text_header {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-bottom: 1.6rem;
+  text-transform: capitalize;
+}
+
+.about_paragraph {
+  font-size: 0.9rem;
+  margin: 0 2rem;
+}
+
+.about_btn {
+  margin-top: 2rem;
+  padding: 12px;
+  margin-left: 2rem;
+  color: #000;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(148, 212, 212);
+  cursor: pointer;
+}
+
+.about_image img {
+  width: 450px;
+  height: 300px;
+  margin-left: 2rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    border-bottom: 1px solid rgb(148, 212, 212);
+  }
+
+  .aboutUs .title {
+    font-size: 0.7rem;
+  }
+
+  .about_content {
+    display: block;
+    padding: 20px;
+  }
+
+  .about_text_header {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0rem;
+    text-transform: capitalize;
+  }
+
+  .about_paragraph {
+    font-size: 1.05rem;
+    margin-left: 0rem;
+  }
+
+  .about_btn {
+    padding-top: 3rem;
+    padding: 8px;
+    margin-left: 0rem;
+    color: #000;
+    font-size: 14px;
+    background: rgb(148, 212, 212);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .about_image img {
+    width: 340px;
+    height: 260px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

@@ -1,0 +1,183 @@
+.rooms {
+  background-color: #f8f8f8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  max-width: 1220px;
+  color: #000;
+}
+
+.rooms_title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.rooms_details {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.8rem;
+  padding-bottom: 15px;
+  width: 85%;
+}
+
+.rooms_details img {
+  width: 280px;
+  height: 230px;
+}
+
+.room_text {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.room_description {
+  display: flex;
+  flex-direction: row;
+}
+
+.room_type {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.about_room {
+  font-size: 1rem;
+}
+
+.description_icons {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin-left: 30px;
+}
+
+/*  */
+
+.room_price_details {
+  background-color: #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+
+.room_price {
+  font-size: 1.5rem;
+}
+
+.room_day {
+  font-size: 1.3rem;
+  padding-top: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rooms {
+    border-bottom: 1px solid rgb(148, 212, 212);
+    margin-top: 0px;
+  }
+
+  .rooms_title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .rooms_details {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+
+  /* Possible resizing of image after deploying */
+  .rooms_details img {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*  */
+  .room_description {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .room_text {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .room_type {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .about_room {
+    font-size: 1.05rem;
+  }
+
+  .description_icons {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .description_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-left: 25px;
+  }
+
+  .room_price_details {
+    background-color: #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .room_price {
+    font-size: 1.5rem;
+  }
+
+  .room_day {
+    font-size: 1.3rem;
+    padding-top: 8px;
+  }
+}
