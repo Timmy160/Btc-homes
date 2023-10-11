@@ -59,7 +59,7 @@
     text-align: center;
     padding: 0 1.6rem;
     padding-top: 0.2rem;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 
   .Food_Image img {
@@ -77,6 +77,6 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1.6rem;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
   }
 }

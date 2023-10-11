@@ -73,7 +73,7 @@ form > input {
 @media only screen and (max-width: 600px) {
   .input {
     background-color: rgba(35, 35, 39, 0.5);
-    width: 380px;
+    width: 400px;
     height: 90px;
     display: flex;
     flex-direction: row;
@@ -106,18 +106,18 @@ form > input {
   }
 
   .btc_homes_location_arrival_departure h3 {
-    font-size: 13px;
-    padding: 2px;
+    font-size: 0.8rem;
+    padding: 1px;
   }
 
   .btc_homes_location_arrival_departure h4 {
-    font-size: 11px;
+    font-size: 0.8rem;
     padding: 2px;
   }
 
   form > label {
     color: #000;
-    font-size: 10px;
+    font-size: 0.6rem;
   }
 
   form > input {
@@ -128,7 +128,7 @@ form > input {
   }
 
   .guest {
-    font-size: 12px;
+    font-size: 0.8rem;
     color: #000;
   }
 

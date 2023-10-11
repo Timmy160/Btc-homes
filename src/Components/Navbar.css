@@ -23,9 +23,9 @@ header {
 .navLink a {
   display: inline-block;
   padding-top: 20px;
-
-  font-size: 12px;
+  font-size: 1.1rem;
 }
+
 header > .logo_img {
   width: 95px;
   height: 95px;
@@ -88,6 +88,12 @@ header .nav-btn {
   header {
     height: 70px;
     padding: 0.1rem;
+  }
+
+  .navLink a {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 0.7rem;
   }
 
   /* Nav link later things */

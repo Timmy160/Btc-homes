@@ -30,7 +30,7 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
-                Maximum occupancy: 2 Adults + 1 Child, Or, 1 Adults + 2 Children
+                Maximum occupancy: 2 Adults + 1 Child, Or, 1 Adult + 2 Children
                 under 12 years old <br /> <br /> These compact yet comfortable
                 bedrooms spread over 45 square metres. They are situated across
                 all floors and come with all amenities. which include an
@@ -100,13 +100,11 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                {" "}
-                Maximum occupancy: 2 Adults, Or, 1 Adults + 1 Child and 1 Infant
+                Maximum occupancy: 2 Adults, Or, 1 Adult + 1 Child and 1 Infant
                 under 12 years old <br /> <br /> Rate inclusive of buffet
-                breakfast in Btc Homes. Located on all floors of the hotel,
-                these guestrooms are personally designed by. They feature an
-                entrance vestibule with an extra walk-in closet, living room, a
-                bedroom and a bathroom with separated shower.
+                breakfast in Btc Homes. Located on all floors of the hotel, They
+                feature an entrance vestibule with an extra walk-in closet,
+                living room, a bedroom and a bathroom with separated shower.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -169,7 +167,7 @@ function Rooms() {
             <div className="room_text">
               <span className="room_type">Classic Room</span>
               <span className="about_room">
-                Maximum occupancy: 2 Adults, Or, 1 Adults + 1 Child and 1 Infant
+                Maximum occupancy: 2 Adults, Or, 1 Adult + 1 Child and 1 Infant
                 under 12 years old <br /> <br /> Rate inclusive of buffet
                 breakfast in Btc Homes. Located on all floors of the hotel,
                 these guestrooms are personally designed by. They feature an
