@@ -38,20 +38,20 @@ function Services() {
         <div className="services_content">
           <div className="services_paragraph">
             <p style={isOpen ? null : paragraphStyles} ref={ref}>
-              At BEATRICE TOLANI COMFORTS'S HOMES, we offer a wide range of
+              At BEATRICE TOLANI COMFORT HOMES, we offer a wide range of
               services to make your stay as comfortable and enjoyable as
               possible. Whether you're here for business or pleasure, we have
               something to meet your needs. We offer a variety of room types to
               choose from, all of which are spacious and well-appointed. All
-              rooms come standard with a king-size bed, a flat-screen TV, a
-              mini-fridge, and a coffee maker. Some rooms also feature balconies
-              or patios with stunning views of the city or surrounding
-              countryside. Our on-site restaurant, serves a delicious variety of
-              dishes for breakfast, lunch, and dinner. We also offer a full bar,
-              where you can enjoy a cocktail or glass of wine before or after
-              dinner. We are committed to providing our guests with the best
-              possible experience. We will be happy to assist you. We offer a
-              variety of amenities to make your stay more enjoyable, including:
+              rooms come with a standard king-size bed, and many more, Some
+              rooms also feature balconies or patios with stunning views of the
+              city or surrounding countryside. Our on-site restaurant, serves a
+              delicious variety of dishes for breakfast, lunch, and dinner. We
+              also offer a full bar, where you can enjoy a cocktail or glass of
+              wine before or after dinner. We are committed to providing our
+              guests with the best possible experience. We will be happy to
+              assist you. We offer a variety of amenities to make your stay more
+              enjoyable, including:
             </p>
             <div className="available_services">
               <span>

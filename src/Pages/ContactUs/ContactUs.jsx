@@ -39,9 +39,8 @@ function ContactUs() {
           <h1>Contact Us</h1>
         </div>
         <div className="contact_header_text">
-          We are here to help you make the most of your stay. Please don't
-          hesitate to contact us if you have any questions, concerns, or special
-          requests.
+          We are committed to make your stay most comfortable. Kindly contact us
+          for more info, questions and/or special requests.
         </div>
         <div className="contact_part">
           <div className="contact_container">
@@ -84,7 +83,8 @@ function ContactUs() {
               <LocationOnIcon className="location_icon" />
               <>
                 Adjacent Federal University of Oye (ikole Campus) along
-                Ikole-Omuo express road, Ikole Ekiti
+                Ikole-Omuo express road, Ikole Ekiti. 5Mins walk from school
+                gate.
               </>
             </div>
           </Fade>

@@ -42,22 +42,21 @@ function AboutUs() {
               style={isOpen ? null : paragraphStyles}
               ref={ref}
             >
-              Welcome to the BEATRICE TOLANI COMFORTS'S HOMES! We're a boutique
-              hotel located in the heart of Ikole Ekiti. Our hotel is known for
-              its warm and inviting atmosphere, its luxurious accommodations,
-              and its commitment to providing our guests with an unforgettable
-              experience. Whether you're here for business or pleasure, we have
-              everything you need to make your stay comfortable and enjoyable.
-              Our spacious rooms and suites are equipped with all the latest
-              amenities, and our staff is always on hand to provide you with
-              personalized attention. In addition to our comfortable rooms and
-              suites, we also offer a variety of amenities to keep you
-              entertained and relaxed. We have a restaurant and bar where you
-              can enjoy delicious food and drinks. We're confident that you'll
-              love your stay at BEATRICE TOLANI COMFORTS'S HOMES . We're
-              committed to providing our guests with the best possible
-              experience, and we look forward to welcoming you to our hotel
-              soon.
+              Welcome to BEATRICE TOLANI COMFORT HOMES! located in the heart of
+              Ikole Ekiti. Our hotel is known for its warm and inviting
+              atmosphere, its luxurious accommodations, and its commitment to
+              providing our guests with an unforgettable experience. Whether
+              you're here for business or pleasure, we have everything you need
+              to make your stay comfortable and enjoyable. Our spacious rooms
+              and suites are equipped with all the latest amenities, and our
+              staff is always on hand to provide you with personalized
+              attention. In addition to our comfortable rooms and suites, we
+              also offer a variety of amenities to keep you entertained and
+              relaxed. We have a restaurant and bar where you can enjoy
+              delicious food and drinks. We're confident that you'll love your
+              stay at BEATRICE TOLANI COMFORT HOMES . We're committed to
+              providing our guests with the best possible experience, and we
+              look forward to welcoming you to our hotel soon.
             </p>
 
             {showRemoveMoreButton && (

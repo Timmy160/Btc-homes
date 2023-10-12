@@ -31,13 +31,11 @@ function Rooms() {
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
                 Maximum occupancy: 2 Adults + 1 Child, Or, 1 Adult + 2 Children
-                under 12 years old <br /> <br /> These compact yet comfortable
-                bedrooms spread over 45 square metres. They are situated across
-                all floors and come with all amenities. which include an
-                oversized king size bed and bathroom with separated shower. It
-                is also equipped with a multi-use work station and a 49" LCD
-                flat screen. Rollaway Beds are not available for this room
-                category
+                under 12 years old <br /> <br /> This compact yet comfortable
+                bedrooms. They are situated across all floors and come with all
+                amenities. which include an oversized king size bed and bathroom
+                with separated shower. It is also equipped with a multi-use work
+                station.
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -65,15 +63,12 @@ function Rooms() {
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
                 Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child under 12
-                years old and 1 Infant. <br /> <br /> These well-appointed 70
-                square metre bedrooms feature an entrance vestibule with closet,
-                a living room, a bedroom and bathroom with separated shower.
+                years old and 1 Infant. <br /> <br />
+                This well appointed bedroom and bathroom with separated shower.
                 They come with all amenities personally. and include an
                 oversized king size bed. For your comfort all the living rooms
-                are equipped with a multi-use working station and 49" LCD flat
-                screen TV. The butler station features a private bar and
-                accessories, which includes an individual coffee machine. can be
-                placed for #10,000 per night.
+                are equipped with a multi-use working station. can be placed for
+                #10,000 per night.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -101,10 +96,11 @@ function Rooms() {
               <span className="room_type">Classic Room</span>
               <span className="about_room">
                 Maximum occupancy: 2 Adults, Or, 1 Adult + 1 Child and 1 Infant
-                under 12 years old <br /> <br /> Rate inclusive of buffet
-                breakfast in Btc Homes. Located on all floors of the hotel, They
-                feature an entrance vestibule with an extra walk-in closet,
-                living room, a bedroom and a bathroom with separated shower.
+                under 12 years old <br /> <br /> This compact yet comfortable
+                bedrooms. They are situated across all floors and come with all
+                amenities. which include an oversized king size bed and bathroom
+                with separated shower. It is also equipped with a multi-use work
+                station.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -132,15 +128,11 @@ function Rooms() {
               <span className="room_type">Classic Room</span>
               <span className="about_room">
                 Maximum occupancy: 2 Adults, Or, 2 Adults + 1 Child under 12
-                years old and 1 Infant. <br /> <br /> These well-appointed 70
-                square metre bedrooms feature an entrance vestibule with closet,
-                a living room, a bedroom and bathroom with separated shower.
-                They come with all amenities personally. and include an
-                oversized king size bed. For your comfort all the living rooms
-                are equipped with a multi-use working station and 38" LCD flat
-                screen TV. The butler station features a private bar and
-                accessories, which includes an individual coffee machine. can be
-                placed for #8,000 per night.
+                years old and 1 Infant. <br /> <br /> This well appointed
+                bedroom and bathroom with separated shower. They come with all
+                amenities personally. and include an oversized king size bed.
+                For your comfort all the living rooms are equipped with a
+                multi-use working station. can be placed for #8,000 per night.
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -168,11 +160,11 @@ function Rooms() {
               <span className="room_type">Classic Room</span>
               <span className="about_room">
                 Maximum occupancy: 2 Adults, Or, 1 Adult + 1 Child and 1 Infant
-                under 12 years old <br /> <br /> Rate inclusive of buffet
-                breakfast in Btc Homes. Located on all floors of the hotel,
-                these guestrooms are personally designed by. They feature an
-                entrance vestibule with an extra walk-in closet, living room, a
-                bedroom and a bathroom with separated shower.
+                under 12 years old <br /> <br /> This compact yet comfortable
+                bedrooms. They are situated across all floors and come with all
+                amenities. which include an oversized king size bed and bathroom
+                with separated shower. It is also equipped with a multi-use work
+                station.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -200,12 +192,12 @@ function Rooms() {
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
                 Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child and 1 Infant
-                under 12 years old <br /> <br /> Rate inclusive of buffet
-                breakfast in Btc Homes. Located on all floors of the hotel,
-                these guestrooms are personally designed by. They feature an
-                entrance vestibule with an extra walk-in closet, living room, a
-                bedroom and a bathroom with separated shower. can be placed for
-                a charge #10,000 plus tax per night
+                under 12 years old <br /> <br />
+                This compact yet comfortable bedrooms. They are situated across
+                all floors and come with all amenities. which include an
+                oversized king size bed and bathroom with separated shower. It
+                is also equipped with a multi-use work station. can be placed
+                for a charge #10,000 plus tax per night
               </span>
               <span className="description_icons">
                 <RestaurantIcon className="description_icon" />
@@ -233,14 +225,11 @@ function Rooms() {
               <span className="room_type">Classic Room</span>
               <span className="about_room">
                 Maximum occupancy: 2 Adults, Or, 2 Adults + 1 Child under 12
-                years old and 1 Infant. <br /> <br /> These well-appointed 60
-                square metre bedrooms feature an entrance vestibule with closet,
-                a living room, a bedroom and bathroom with separated shower.
-                They come with all amenities personally. and include an
-                oversized king size bed. For your comfort all the living rooms
-                are equipped with a multi-use working station and 38" LCD flat
-                screen TV. The butler station features a private bar and
-                accessories, which includes an individual coffee machine.
+                years old and 1 Infant. <br /> <br /> This compact yet
+                comfortable bedrooms. They are situated across all floors and
+                come with all amenities. which include an oversized king size
+                bed and bathroom with separated shower. It is also equipped with
+                a multi-use work station.
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
@@ -268,15 +257,12 @@ function Rooms() {
               <span className="room_type">Deluxe Room</span>
               <span className="about_room">
                 Maximum occupancy: 3 Adults, Or, 2 Adults + 1 Child under 12
-                years old and 1 Infant. <br /> <br /> These well-appointed 70
-                square metre bedrooms feature an entrance vestibule with closet,
-                a living room, a bedroom and bathroom with separated shower.
-                They come with all amenities personally. and include an
-                oversized king size bed. For your comfort all the living rooms
-                are equipped with a multi-use working station and 49" LCD flat
-                screen TV. The butler station features a private bar and
-                accessories, which includes an individual coffee machine. can be
-                placed for #10,000 per night.
+                years old and 1 Infant. <br /> <br /> This compact yet
+                comfortable bedrooms. They are situated across all floors and
+                come with all amenities. which include an oversized king size
+                bed and bathroom with separated shower. It is also equipped with
+                a multi-use work station. can be placed for a charge #10,000
+                plus tax per night
               </span>
               <span className="description_icons">
                 <BathtubIcon className="description_icon" />
