@@ -34,7 +34,7 @@ function FoodMenu() {
     slidesToScroll: 1,
     dots: true,
     infinite: true,
-    speed: 900,
+    speed: 500,
     initialSlide: 1,
     responsive: [
       {

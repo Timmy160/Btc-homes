@@ -1,14 +1,14 @@
 .input {
-  background-color: rgba(35, 35, 39, 0.5);
-  backdrop-filter: blur(15px);
+  background-color: rgba(35, 35, 39, 0.4);
+  backdrop-filter: blur(1px);
   width: 850px;
-  height: 140px;
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4rem;
+  margin-top: 13rem;
   border-radius: 15px;
 }
 
@@ -72,7 +72,8 @@ form > input {
 
 @media only screen and (max-width: 600px) {
   .input {
-    background-color: rgba(35, 35, 39, 0.5);
+    background-color: rgba(35, 35, 39, 0.4);
+    backdrop-filter: blur(1px);
     width: 400px;
     height: 90px;
     display: flex;
@@ -80,7 +81,7 @@ form > input {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 
   .btc_homes_location_arrival_departure {

@@ -83,8 +83,8 @@ function ContactUs() {
               <LocationOnIcon className="location_icon" />
               <>
                 Adjacent Federal University of Oye (ikole Campus) along
-                Ikole-Omuo express road, Ikole Ekiti. 5Mins walk from school
-                gate.
+                Ikole-Omuo express road, Ikole Ekiti. 5Mins walk away from
+                school gate.
               </>
             </div>
           </Fade>
