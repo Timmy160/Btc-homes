@@ -1,7 +1,7 @@
 import { React, useState, useRef, useEffect } from "react";
 import "./Services.css";
 // import Btc_img_services from "../../Assets/Images/Btc_img_services.jpg";
-import Snooker from "../../Assets/Images/Snooker.jpg";
+import party from "../../Assets/Images/party.jpg";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
@@ -95,7 +95,8 @@ function Services() {
           </div>
           <Slide right distance="20%" duration={2000}>
             <div className="services_image">
-              <img src={Snooker} alt="btc_services" />
+              <h2>Grand opening party</h2>
+              <img src={party} alt="btc_services" />
             </div>
           </Slide>
         </div>
